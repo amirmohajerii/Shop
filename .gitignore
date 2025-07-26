@@ -1,1 +1,66 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files ##
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# VS backup and logs
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.cache
+*.dbmdl
+*.pidb
+
+# IIS Express
 .vs/
+*.vsconfig
+
+# Web project publish
+*.Publish.xml
+publish/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.lock.json
+project.assets.json
+*.deps.json
+*.runtimeconfig.json
+
+# Others
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
